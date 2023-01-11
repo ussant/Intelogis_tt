@@ -1,0 +1,19 @@
+.table-row-light {
+    background-color: aqua;
+}
+
+.table-row-light, .table-row-dark:hover {
+    cursor: pointer;
+}
+
+td.ant-table-cell-row-hover {
+    background: none!important;
+    /*border-bottom-color: blue!important;*/
+    /*border-top-color: blue!important;*/
+    /*border-bottom: 1px solid grey!important;*/
+    /*border-bottom-color: grey;*/
+}
+
+.ant-table-tbody > tr.ant-table-row-level-0:hover > td {
+    background: unset;
+}
